@@ -1,0 +1,42 @@
+/* Page background and base font */
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    background:#efefef;
+}
+
+/* Main container styling */
+.container{
+    max-width:750px;
+    margin:auto;
+    background:white;
+    padding:40px;
+    border-radius:12px;
+}
+
+/* Main heading styling */
+h1{
+    font-size:60px;
+    color:#2ecc71;
+    text-align:center;
+}
+
+/* Secondary heading styling */
+h2{
+    color:#2ecc71;
+    text-align:center;
+}
+
+/* Paragraph text styling */
+p{
+    line-height:1.6;
+    color:#444;
+}
+
+/* Green information box */
+.fact-box{
+    background:#27ae60;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    margin:20px 0;
+}

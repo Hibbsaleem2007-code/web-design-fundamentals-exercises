@@ -1,0 +1,72 @@
+body{
+    background:#ff5aa5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width:420px;
+    margin:auto;
+    background:#ff5aa5;
+}
+
+/* Top decoration */
+
+.top{
+    text-align:center;
+    font-size:30px;
+    margin-top:20px;
+    position:relative;
+}
+
+.cart{
+    position:absolute;
+    top:20px;
+    right:25px;
+    width:26px;
+    cursor:pointer;
+}
+
+
+/* Photo block */
+
+.photo{
+    position:relative;
+    margin:20px 0;
+}
+
+.photo img{
+    width:100%;
+    display:block;
+}
+
+/* Add to basket button */
+
+.basket{
+    position:absolute;
+    top:5px;
+    left:5px;
+    background:white;
+    border:1px solid #999;
+    padding:4px 8px;
+    font-size:12px;
+    cursor:pointer;
+}
+
+/* Caption */
+
+.caption{
+    background:#e6e3c7;
+    color:#33c0e7;
+    font-weight:bold;
+    padding:6px;
+}
+
+/* Footer */
+
+footer{
+    margin-top:20px;
+}
+
+footer ul{
+    list-style:disc;
+}

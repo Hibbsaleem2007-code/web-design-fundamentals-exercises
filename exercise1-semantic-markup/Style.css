@@ -1,0 +1,52 @@
+/* Styling for entire webpage */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+    padding:0;
+    color:#333;
+}
+
+/* Header styling */
+header{
+    background:#e8e8e8;
+    padding:20px;
+    text-align:center;
+}
+
+/* Navigation links styling */
+nav a{
+    margin:10px;
+    text-decoration:none;
+    color:#2c3e50;
+    font-weight:bold;
+}
+
+/* Main content container */
+main{
+    max-width:800px;
+    margin:auto;
+    background:white;
+    padding:20px;
+}
+
+/* Recipe title styling */
+h2{
+    color:#34495e;
+}
+
+/* Aside note box styling */
+aside{
+    background:#eee;
+    padding:10px;
+    margin-top:10px;
+    border-left:5px solid #3498db;
+}
+
+/* Footer styling */
+footer{
+    text-align:center;
+    padding:15px;
+    background:#ddd;
+    margin-top:20px;
+}

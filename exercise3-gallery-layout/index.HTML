@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>J's Gallery</title>
+
+<style>
+
+body{
+    margin:0;
+    background:#1e2a30;
+    font-family: Georgia, serif;}
+
+
+.wrapper{
+    width:75%;
+    margin:40px auto;
+    background:#dcdcdc;
+    padding:25px;
+}
+
+
+h1{
+    text-align:center;
+    font-size:50px;
+    margin:10px 0 5px 0;
+}
+
+
+nav{
+    text-align:center;
+    margin:20px;
+}
+
+nav a{
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+    color:rgb(39, 36, 226);
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:blue;
+}
+
+
+.top-section{
+    display:flex;
+    gap:20px;
+    margin-bottom:20px;
+}
+
+.text{
+    width:55%;
+    font-size:14px;
+    line-height:1.5;
+}
+
+.side-image{
+    width:45%;
+}
+
+.side-image img{
+    width:90%;
+    height:90%;   
+    object-fit:cover;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.gallery img,
+.gallery video{
+    width:100%;
+    height:250px;  
+    object-fit:cover;
+    display:block;
+}
+
+.wide{
+    grid-column:span 2;
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <h1>J's Gallery</h1>
+
+    <nav>
+        <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
+    </nav>
+
+    <div class="top-section">
+        <div class="text">
+            <p>
+                
+            Lorem ipsum odor amet, consectetuer adipiscing elit. Praesent mollis adipiscing per id libero libero. 
+            Tempus pretium netus molestie scelerisque facilisis tristique volutpat ultricies.
+             Nostra ligula ac pulvinar rutrum non rhoncus mauris facilisi. 
+            Quisque maximus commodo sollicitudin, montes congue imperdiet. 
+            Est malesuada vivamus vestibulum ante aenean class. Per integer aptent ullamcorper sagittis posuere dignissim morbi scelerisque.
+            Fringilla primis sagittis lorem erat integer; vulputate nullam.
+             Porta purus habitant id fermentum nec ex, proin mauris sem.
+            </p>
+
+            <p>
+            Lectus ultrices nibh lobortis tempus facilisis sit conubia taciti. 
+            Non torquent amet nibh elit ante fermentum praesent cras.
+             Et suspendisse egestas eros erat aptent sollicitudin.Nulla tortor purus posuere auctor himenaeos malesuada. 
+             Turpis phasellus enim venenatis aliquam pellentesque senectus, id ultrices. 
+            Praesent tellus consequat phasellus cubilia mattis mauris natoque litora.Fringilla cursus montes inceptos nec venenatis platea.
+            </p>
+
+        </div>
+
+        <div class="side-image">
+            <img src="images/COW.jpg" alt="COW.jpg">
+        </div>
+    </div>
+
+    <!-- Gallery -->
+    <div class="gallery">
+
+        <video controls>
+            <source src="
+            videos/video.mp4" type="video/mp4" >
+        </video>
+
+        <img src="images/img4598.jpg">
+        <img src="images/img4532.jpg">
+        <img src="images/photo_2018_02_01.jpg" >
+        <img src="images/photo_2018_02_31.jpg">
+        <img src="images/johns car jpg.jpg" >
+
+    </div>
+
+</div>
+
+</body>
+</html>
